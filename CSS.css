@@ -21,59 +21,61 @@ body {
       white;
   background-repeat: no-repeat;
 }
-
+#checkemai{
+  color: red;
+}
 #container {
-  width: 90rem;
-  height: 345rem;
+  width: 1440px;
+  height: 5520px;
   display: flex;
   justify-content: center;
   align-items: center;
    justify-content: space-evenly;
 }
 #contain-section {
-  width: 79.0625rem;
-  height: 336.0625rem;
+  width: 1265px;
+  height: 5377px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
 }
 #contain-header {
-  width: 79.375rem;
-  height: 7.8125rem;
+  width: 1270px;
+  height: 125px;
   display: flex;
   justify-content: space-between;
    align-items: center;
 }
 #contain-header > button {
-  width: 9.0625rem;
-  height: 2.8125rem;
-  font-size: 1.125rem;
-  border-radius: 2.5rem;
-  border: 0.125rem solid hsl(322, 100%, 66%);
+  width: 145px;
+  height: 45px;
+  font-size: 18px;
+  border-radius: 40px;
+  border: 2px solid hsl(322, 100%, 66%);
   color: hsl(322, 100%, 66%);
- box-shadow: 0.0625rem 0rem 0.3125rem 0rem hsl(321, 100%, 78%);
+ box-shadow: 1px 0px 5px 0px hsl(321, 100%, 78%);
  background-color: white;
   font-family: "Open Sans", sans-serif;
   cursor: pointer;
 
 }
 #contain-header > button:hover{
-  border: 0.0625rem solid  hsl(321, 100%, 78%);
+  border: 1px solid  hsl(321, 100%, 78%);
   color: hsl(321, 100%, 78%);
-   box-shadow: 0.0625rem 0rem 0.3125rem 0rem hsl(321, 100%, 78%);
+   box-shadow: 1px 0px 5px 0px hsl(321, 100%, 78%);
 
 }
 #contain-header >img{
-  width:15rem;
-  height: 2.8125rem;
+  width:240px;
+  height: 45px;
   background-repeat: no-repeat;
  
 }
  
 #contain-article {
-  width: 79.375rem;
-  height: 24.6875rem;
+  width: 1270px;
+  height: 395px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -82,75 +84,75 @@ body {
   text-align: center;
 }
 #contain-section{
-  height: 344.875rem;
- width: 18.75rem;
+  height: 5518px;
+ width: 300px;
 }
 #contain-article > h1 {
-  font-size: 3.125rem;
+  font-size: 50px;
   color: hsl(192, 100%, 9%);
   font-family: "Poppins", sans-serif;
-  padding: 1.25rem;
+  padding: 20px;
 }
 #contain-article > p {
-  font-size: 1.5625rem;
+  font-size: 25px;
   color: hsl(192, 100%, 9%);
   font-family: "Open Sans", sans-serif;
-  width: 50rem;
-  padding: 1.875rem;
+  width: 800px;
+  padding: 30px;
 }
 #contain-article > button {
-  width: 25rem;
-  height: 5rem;
-  border-radius: 2.1875rem;
+  width: 400px;
+  height: 80px;
+  border-radius: 35px;
   border: none;
-  padding: 1.25rem;
-  font-size: 1.25rem;
+  padding: 20px;
+  font-size: 20px;
   background-color: hsl(322, 100%, 66%);
   color: #f5faff;
    font-family: "Poppins", sans-serif;
-  box-shadow: 0rem 0.0625rem 0.5625rem 0rem hsl(192, 100%, 9%);
+  box-shadow: 0px 1px 9px 0px hsl(192, 100%, 9%);
   cursor: pointer;
 
 }
 #contain-article > button:hover{
-    box-shadow: 0rem 0.0625rem 0.5625rem 0rem hsl(192, 100%, 9%);
+    box-shadow: 0px 1px 9px 0px hsl(192, 100%, 9%);
 
 background-color: hsl(321, 100%, 78%);
 }
 .contain-div {
-  width: 64.375rem;
-  height: 72.5rem;
+  width: 1030px;
+  height: 1160px;
   display: grid;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .contain-div > .all {
-  width: 64.375rem;
-  height: 13.4375rem;
-  grid-template-columns: 11.875rem 11.875rem;
-  grid-template-rows: 6.25rem 6.25rem;
+  width: 1030px;
+  height: 215px;
+  grid-template-columns: 190px 190px;
+  grid-template-rows: 100px 100px;
   display: grid;
 
   justify-content: space-around;
 }
 .contain-div > img {
-  width: 63.75rem;
-  height: 45.9375rem;
+  width: 1020px;
+  height: 735px;
 }
 .contain-div > .all > div > h3 {
-  font-size: 3.75rem;
+  font-size: 60px;
   font-family: "Poppins", sans-serif;
   color: hsl(192, 100%, 9%);
 }
 .contain-div > .all > div > p {
-  font-size: 1.125rem;
+  font-size: 18px;
   color: gray;
   font-family: "Open Sans", sans-serif;
 }
 #contain-aside {
-  width: 74.375rem;
-  height: 160.5625rem;
+  width: 1190px;
+  height: 2569px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,31 +161,31 @@ background-color: hsl(321, 100%, 78%);
 }
 
 #contain-aside>div> div {
-  width: 30.9375rem;
-  height: 9.375rem;
+  width: 495px;
+  height: 150px;
   align-items: center;
   justify-content: center;
    justify-content: space-evenly;
 }
 #contain-aside>div> div > h2 {
-  font-size: 2.1875rem;
+  font-size: 35px;
   font-family: "Poppins", sans-serif;
   color: hsl(192, 100%, 9%);
-  padding: 0.3125rem;
+  padding: 5px;
 }
 #contain-aside>div> div > p {
-  padding: 0.3125rem;
+  padding: 5px;
   font-family: "Open Sans", sans-serif;
-  font-size: 0.9375rem;
+  font-size: 15px;
   color: hsl(192, 100%, 9%);
 }
 #contain-aside > div > img {
-  width: 31.875rem;
-  height: 25rem;
+  width: 510px;
+  height: 400px;
 }
 .grow {
-  width: 90rem;
-  height: 25.625rem;
+  width: 1440px;
+  height: 410px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -191,8 +193,8 @@ background-color: hsl(321, 100%, 78%);
    
 } 
 .flowing {
-   width: 90rem;
-  height: 25.625rem;
+   width: 1440px;
+  height: 410px;
   display: flex;
   justify-content: space-around;
   flex-direction: row-reverse;
@@ -202,8 +204,8 @@ background-color: hsl(321, 100%, 78%);
  
 
 .users {
-  width: 90rem;
-  height: 25.625rem;
+  width: 1440px;
+  height: 410px;
   display: flex;
   justify-content: space-around;
   flex-direction: row-reverse;
@@ -211,86 +213,89 @@ background-color: hsl(321, 100%, 78%);
   background-color: hsl(207, 100%, 98%);
 }
 .ready {
-  width: 79.0625rem;
- height: 21.875rem;
+  width: 1265px;
+ height: 350px;
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
  }
 .ready > h2 {
-  font-size: 1.875rem;
+  font-size: 30px;
   font-family: "Poppins", sans-serif;
-  padding: 1.5625rem;
+  padding: 25px;
   color: hsl(192, 100%, 9%);
 }
 .ready > button {
-  width: 25.3125rem;
-  height: 5.625rem;
+  width: 405px;
+  height: 90px;
   color: hsl(207, 100%, 98%);
   border: none;
-  border-radius: 2.8125rem;
+  border-radius: 45px;
   font-family: "Poppins", sans-serif;
-  padding: 1.5625rem;
-  font-size: 1.5625rem;
+  padding: 25px;
+  font-size: 25px;
   background-color: hsl(322, 100%, 66%);
   cursor: pointer;
 }
 .ready> button:hover{
-    box-shadow: 0rem 0.0625rem 0.5625rem 0rem hsl(192, 100%, 9%);
+    box-shadow: 0px 1px 9px 0px hsl(192, 100%, 9%);
 
 background-color: hsl(321, 100%, 78%);
 }
 #second-article {
-  width: 90rem;
-  height: 29.375rem;
+  width: 1440px;
+  height: 470px;
   
    display: flex;
   justify-content: space-between;
-  padding: 2.5rem;
+  padding: 40px;
   background-color: hsl(192, 100%, 9%);
   align-items: center;
 }
 #second-article > .social {
-  width: 20.0625rem;
-  height: 22.0625rem;
+  width: 321px;
+  height: 353px;
   display: grid;
-  grid-template-rows: 4.6875rem 5rem 2.5rem 4.6875rem;
+  grid-template-rows: 75px 80px 40px 75px;
  }
 #second-article > .social > .btn {
-  width: 10rem;
-  height: 1.875rem;
+  width: 160px;
+  height: 30px;
   display: grid;
-  grid-template-columns: 1.875rem 10rem;
+  grid-template-columns: 30px 160px;
 }
 #second-article > .social > p {
   font-family: "Open Sans", sans-serif;
   color: hsl(207, 100%, 98%);
 
-  font-size: 0.9375rem;
+  font-size: 15px;
 }
 #second-article > .social > div > p {
   color: hsl(207, 100%, 98%);
-  font-size: 0.9375rem;
+  font-size: 15px;
 }
-#second-article > .social > div > img:nth-child(2) {
-  width: 15.9375rem;
-  height: 3.125rem;
+#second-article > .social  > img {
+  width: 250px;
+filter: invert(10%) brightness(1000%);
+
+
+height: 45px;
 }
 .icons > .icons-btn {
-   width: 2.5rem;
-  height: 1.875rem;
+   width: 40px;
+  height: 30px;
 color: hsl(192, 100%, 9%);
 background-color: white;
-border-radius: 0.3125rem;}
+border-radius: 5px;}
 .icons>.icons-btn:hover{
 background-color: aqua;
 }
 
 
 .net {
-   width: 26.875rem;
-  height: 17.8125rem;
+   width: 430px;
+  height: 285px;
   display: flex;
 flex-direction: column;
   justify-content: space-evenly;
@@ -300,22 +305,22 @@ flex-direction: column;
 }
  
 .net > div > input {
-  width: 16.25rem;
-  padding: 1.25rem;
-  height: 1.875rem;
+  width: 260px;
+  padding: 20px;
+  height: 30px;
   border: none;
-  border-radius: 0.3125rem;
+  border-radius: 5px;
 
 }
 .net > div > button {
-  width: 5.625rem;
-  height: 2.8125rem;
+  width: 90px;
+  height: 45px;
   border: none;
-  border-radius: 0.3125rem;
+  border-radius: 5px;
     font-family: "Poppins", sans-serif;
 background-color: hsl(322, 100%, 66%);
 color: hsl(207, 100%, 98%);
-    font-size: 0.875rem;
+    font-size: 14px;
     cursor: pointer;
  }
 .net > div >button:hover{
@@ -324,23 +329,23 @@ background-color: hsl(321, 100%, 78%);
 }
 .net > h2 {
   font-family: "Poppins", sans-serif;
-padding: 1.25rem;
-  font-size: 1.875rem;
+padding: 20px;
+  font-size: 30px;
   color:  hsl(207, 100%, 98%);
 }
 .net > p {
-  font-size: 0.9375rem;
+  font-size: 15px;
   font-family: "Open Sans", sans-serif;
   color:  hsl(207, 100%, 98%);
 }
 .challenge{
-  font-size: 0.9375rem;
+  font-size: 15px;
   color: aquamarine;
 }
 .challenge>a{
   color: white;
 }
-@media screen and (max-width:380px) {
+@media screen and (max-width:375px) {
   
   * {
     margin: 0;
@@ -366,56 +371,56 @@ padding: 1.25rem;
   }
   
   #container {
-    width: 20.625rem;
-    height: 289.0625rem;
+    width: 330px;
+    height: 4625px;
     display: flex;
     justify-content: center;
     align-items: center;
     }
   #contain-section {
-    width: 20.625rem;
-    height: 289.0625rem;
+    width: 330px;
+    height: 4625px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
   #contain-header {
-    width: 20.625rem;
-    height:2.1875rem;
+    width: 330px;
+    height:35px;
     display: flex;
     justify-content: space-between;
      align-items: center;
   }
   #contain-header > button {
-    width: 5.3125rem;
-    height: 1.875rem;
-    font-size: 0.9375rem;
-    border-radius: 2.5rem;
-    border: 0.125rem solid hsl(322, 100%, 66%);
+    width: 85px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 40px;
+    border: 2px solid hsl(322, 100%, 66%);
     color: hsl(322, 100%, 66%);
-   box-shadow: 0.0625rem 0rem 0.3125rem 0rem hsl(321, 100%, 78%);
+   box-shadow: 1px 0px 5px 0px hsl(321, 100%, 78%);
    background-color: white;
     font-family: "Open Sans", sans-serif;
     cursor: pointer;
   
   }
   #contain-header > button:hover{
-    border: 0.0625rem solid  hsl(321, 100%, 78%);
+    border: 1px solid  hsl(321, 100%, 78%);
     color: hsl(321, 100%, 78%);
-     box-shadow: 0.0625rem 0rem 0.3125rem 0rem hsl(321, 100%, 78%);
+     box-shadow: 1px 0px 5px 0px hsl(321, 100%, 78%);
   
   }
   #contain-header >img{
-    width:6.25rem;
-    height: 1.5625rem;
+    width:100px;
+    height: 25px;
     background-repeat: no-repeat;
    
   }
    
   #contain-article {
-    width: 18.75rem;
-    height: 18.125rem;
+    width: 300px;
+    height: 290px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -425,75 +430,75 @@ padding: 1.25rem;
    }
    
   #contain-article > h1 {
-    font-size: 1.5625rem;
+    font-size: 25px;
     color: hsl(192, 100%, 9%);
     font-family: "Poppins", sans-serif;
    }
   #contain-article > p {
-    font-size: 0.9375rem;
+    font-size: 15px;
     color: hsl(192, 100%, 9%);
     font-family: "Open Sans", sans-serif;
-    width: 25rem;
-    padding: 1.875rem;
+    width: 400px;
+    padding: 30px;
   }
   #contain-article > button {
-    width: 12.8125rem;
-    height: 2.8125rem;
-    border-radius: 2.1875rem;
+    width: 205px;
+    height: 45px;
+    border-radius: 35px;
     border: none;
-     font-size: 0.9375rem;
+     font-size: 15px;
     background-color: hsl(322, 100%, 66%);
     color: #f5faff;
      font-family: "Poppins", sans-serif;
-    box-shadow: 0rem 0.0625rem 0.5625rem 0rem hsl(192, 100%, 9%);
+    box-shadow: 0px 1px 9px 0px hsl(192, 100%, 9%);
     cursor: pointer;
   
   }
   #contain-article > button:hover{
-      box-shadow: 0rem 0.0625rem 0.5625rem 0rem hsl(192, 100%, 9%);
+      box-shadow: 0px 1px 9px 0px hsl(192, 100%, 9%);
   
   background-color: hsl(321, 100%, 78%);
   }
   .contain-div {
-    width: 19.0625rem;
-    height: 45.9375rem;
+    width: 305px;
+    height: 735px;
     display: grid;
     flex-direction: column;
     justify-content: center;
     align-items: center;
    }
   .contain-div > .all {
-    width: 19.1875rem;
-    height: 24.6875rem;
-    grid-template-columns: 11.875rem;
-    grid-template-rows: 16.25rem 16.25rem;
+    width: 307px;
+    height: 395px;
+    grid-template-columns: 190px;
+    grid-template-rows: 260px 260px;
     display: grid;
       justify-content: space-evenly;
   }
   .contain-div > img {
-    width: 18.4375rem;
-    height: 13.4375rem;
+    width: 295px;
+    height: 215px;
   }
   .contain-div > .all > div > h3 {
-    font-size: 2.1875rem;
+    font-size: 35px;
     font-family: "Poppins", sans-serif;
     color: hsl(192, 100%, 9%);
   }
   .contain-div > .all > div > p {
-    font-size: 0.9375rem;
+    font-size: 15px;
       color: gray;
     font-family: "Open Sans", sans-serif;
   }
   .contain-div > .all > div>img{
-    width: 1.875rem;
+    width: 30px;
   }
   .contain-div > .all > div{
-    width: 11.25rem;
-    height: 10.3125rem;
+    width: 180px;
+    height: 165px;
    }
   #contain-aside {
-    width: 20.9375rem;
-    height: 149.375rem;
+    width: 335px;
+    height: 2390px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -501,29 +506,29 @@ padding: 1.25rem;
     justify-content: space-around;
    }
   #contain-aside > div > img {
-    width: 16.5625rem;
-    height: 14.375rem;
+    width: 265px;
+    height: 230px;
   }
   #contain-aside >div>div {
-    width: 18.75rem;
-    height: 9.375rem;
+    width: 300px;
+    height: 150px;
     align-items: center;
     justify-content: space-evenly;
     
   }
   #contain-aside >div> div > h2 {
-    font-size: 1.25rem;
+    font-size: 20px;
     font-family: "Poppins", sans-serif;
     color: hsl(192, 100%, 9%);
    }
   #contain-aside >div > div > p {
      font-family: "Open Sans", sans-serif;
-    font-size: 0.8125rem;
+    font-size: 13px;
     color: hsl(192, 100%, 9%);
   }
   .grow {
-    width: 23.4375rem;
-    height: 26.5625rem;
+    width: 375px;
+    height: 425px;
   
     display: flex;
     justify-content: space-around;
@@ -536,8 +541,8 @@ padding: 1.25rem;
    
   
   .flowing {
-   width: 23.4375rem;
-    height: 26.5625rem;
+   width: 375px;
+    height: 425px;
   
     display: flex;
     justify-content: space-around;
@@ -548,8 +553,8 @@ padding: 1.25rem;
    
   
   .users {
-  width: 23.4375rem;  
-  height: 26.5625rem;
+  width: 375px;  
+  height: 425px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -559,8 +564,8 @@ padding: 1.25rem;
   } 
    
   .ready {
-    width: 23.4375rem;
-    height: 16.875rem;
+    width: 375px;
+    height: 270px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -569,31 +574,31 @@ padding: 1.25rem;
    
     }
   .ready > h2 {
-    font-size: 1.5625rem;
+    font-size: 25px;
     font-family: "Poppins", sans-serif;
      color: hsl(192, 100%, 9%);
     text-align: center;
   }
   .ready > button {
-    width: 12.8125rem;
-    height: 2.8125rem;
+    width: 205px;
+    height: 45px;
     color: hsl(207, 100%, 98%);
     border: none;
-    border-radius: 2.8125rem;
+    border-radius: 45px;
     font-family: "Poppins", sans-serif;
-     font-size: 0.9375rem;
+     font-size: 15px;
     background-color: hsl(322, 100%, 66%);
     cursor: pointer;
-     
+    text-align: center;
   }
   .ready> button:hover{
-      box-shadow: 0rem 0.0625rem 0.5625rem 0rem hsl(192, 100%, 9%);
+      box-shadow: 0px 1px 9px 0px hsl(192, 100%, 9%);
   
   background-color: hsl(321, 100%, 78%);
   }
   #second-article {
-    width: 23.4375rem;
-    height: 45.9375rem;
+    width: 375px;
+    height: 735px;
   justify-content: space-around;
      display: flex;
      flex-direction: column-reverse;
@@ -603,63 +608,63 @@ padding: 1.25rem;
     
   }
   #second-article > .social {
-    width: 19.375rem;
-    height: 21.5625rem;
+    width: 310px;
+    height: 345px;
     display: grid;
-    grid-template-rows: 3.75rem 5rem 3.125rem 4.6875rem;
+    grid-template-rows: 60px 80px 50px 75px;
    }
   #second-article > .social > .btn {
-    width: 10rem;
-    height: 1.875rem;
+    width: 160px;
+    height: 30px;
     display: grid;
-    grid-template-columns: 1.875rem 10rem;
+    grid-template-columns: 30px 160px;
   }
   #second-article > .social > p {
     font-family: "Open Sans", sans-serif;
     color: hsl(207, 100%, 98%);
   
-    font-size: 0.8125rem;
+    font-size: 13px;
   }
   #second-article > .social > div > p {
     color: hsl(207, 100%, 98%);
-    font-size: 0.9375rem;
+    font-size: 15px;
   }
   #second-article> .social >img:nth-child(1) {
-    width: 13.125rem;
-     height: 2.8125rem;
+    width: 210px;
+     height: 459px;
    }
      
   .icons > .icons-btn {
-     width: 1.875rem;
-    height: 1.5625rem;
+     width: 30px;
+    height: 25px;
   color: hsl(192, 100%, 9%);
   background-color: white;
-  border-radius: 0.3125rem;}
+  border-radius: 5px;}
   .icons>.icons-btn:hover{
   background-color: aqua;
   }
   .net {
-     width: 20rem;
-    height: 18.125rem;
+     width: 320px;
+    height: 290px;
     display: flex;
   flex-direction: column;
     justify-content: space-evenly;   
   }
   .net > div > input {
-    width: 20.3125rem;
-     height: 3.4375rem;
+    width: 325px;
+     height: 55px;
     border: none;
-    border-radius: 0.3125rem;
+    border-radius: 5px;
   }
   .net > div > button {
-    width: 9.375rem;
-    height: 2.8125rem;
+    width: 150px;
+    height: 45px;
     border: none;
-    border-radius: 0.3125rem;
+    border-radius: 5px;
       font-family: "Poppins", sans-serif;
   background-color: hsl(322, 100%, 66%);
   color: hsl(207, 100%, 98%);
-      font-size: 0.875rem;
+      font-size: 14px;
       cursor: pointer;
    }
   .net > div >button:hover{
@@ -668,16 +673,16 @@ padding: 1.25rem;
   }
   .net > h2 {
     font-family: "Poppins", sans-serif;
-     font-size: 1.875rem;
+     font-size: 30px;
     color:  hsl(207, 100%, 98%);
   }
   .net > p {
-    font-size: 0.8125rem;
+    font-size: 13px;
     font-family: "Open Sans", sans-serif;
     color:  hsl(207, 100%, 98%);
   }
   .challenge{
-    font-size: 0.9375rem;
+    font-size: 15px;
     color: aquamarine;
   }
   .challenge>a{
